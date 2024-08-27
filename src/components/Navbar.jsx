@@ -45,7 +45,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div>
-                  <Button className="text-black hover:text-white border border-black w-[150px] mx-auto lg:block">Appointment</Button>
+                  <Button className="hidden text-black hover:text-white border border-black w-[150px] mx-auto lg:block">Appointment</Button>
                 </div>
                 {/* <div className="hidden lg:flex items-center gap-6 ">
                     <Search className="w-4 h-4 cursor-pointer" onClick={toggleSearch} />
