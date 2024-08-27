@@ -11,12 +11,13 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import person1 from '/images/person1.jpg';
 import person3 from '/images/person3.jpg';
 import person2 from '/images/person2.jpg';
+import ParallaxImg from '/Parallax2.jpg';
 
 const Testimonial = () => {
   return (
     <div className='relative h-[700px] xl:px-28 px-4'
     style={{
-      backgroundImage: 'url(/images/parallax2.jpg)',
+      backgroundImage: `url(${ParallaxImg})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',

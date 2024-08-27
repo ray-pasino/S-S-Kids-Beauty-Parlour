@@ -2,12 +2,13 @@ import React from 'react';
 // import { Button } from './ui/button';
 import {Goal} from 'lucide-react';
 import { Link } from 'react-scroll'; // Import from react-scroll
+import ParallaxImg from '/Parallax3.jpg';
 
 const Parallax = () => {
   return (
     <div className='relative min-h-screen xl:px-28 px-4 '
     style={{
-        backgroundImage: 'url(/images/parallax3.jpg)',
+        backgroundImage: `url(${ParallaxImg})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -37,7 +38,7 @@ const Parallax = () => {
             </div>
         </div>
 
-        <div className='md:w-[400px] md:h-[auto] mx-auto text-center my-16 p-8 border-none rounded-xl bg-transparent shadow-xl'>
+        <div className='md:w-[400px] md:h-[auto] mx-auto text-center my-16 p-8 border-none rounded-xl bg-transparent'>
             <h2 className='font-bold text-4xl mb-4 text-[#ebebeb]'>Why Choose Us?</h2>
             <h5 className='text-lg mb-3 font-bold text-[#fff]'>In addition, there 5 more reasons why people prefer S&S Kids Beauty Palour:</h5>
             <p className='text-md mb-3 text-[#fff] flex items-center justify-center gap-x-3'><span><Goal /></span> Always welcoming environment</p>
