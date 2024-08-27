@@ -39,7 +39,7 @@ function App() {
         </div>
       </section>
 
-      <section className='min-h-screen -mt-20 bg-[#eeeeee66'> 
+      <section className='min-h-screen -mt-20 bg-[#eeeeee66]'> 
            <h6 className='uppercase text-center text-xs tracking-[3px] pt-24 font-semibold'>Services</h6>
            <div className='flex flex-col justify-center items-center'>
               <h2 className='text-center text-5xl font-bold my-3'>Our Services</h2>
@@ -50,7 +50,7 @@ function App() {
       <section className='min-h-screen'>
         <Parallax />
       </section>
-      <section className='min-h-screen bg-[#eeeeee66'>
+      <section className='min-h-screen bg-[#eeeeee66]'>
       <h6 className='uppercase text-center text-xs tracking-[3px] pt-24 font-semibold'>Pricing</h6>
            <div className='flex flex-col justify-center items-center'>
               <h2 className='text-center text-5xl font-bold my-3'>Pricing Plans</h2>

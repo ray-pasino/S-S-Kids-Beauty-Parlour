@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import ServiceCard from '@/components/Cards'
+import { Button } from '@/components/ui/button';
+import Footer from '@/components/Footer';
 
 const Services = () => {
   return (
@@ -27,8 +29,34 @@ const Services = () => {
         </div>
         </div>
         <section className='bg-[#eeeeee66]'>
-        <ServiceCard />
+            <ServiceCard />
         </section>
+        <section>
+      <div className='relative h-[500px] xl:px-28 px-4  bg-black'
+        style={{
+          backgroundImage: 'url(/images/services.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed',
+          objectFit: 'cover'
+        }}
+      >
+        <div className='absolute inset-0 bg-black opacity-55'></div>
+        <div className='relative z-10 w-full flex flex-col md:flex-row items-center justify-center object-cover'>
+          <div className='md:w-1/2 my-20 flex items-center flex-col'>
+            <h6 className="text-gray-100 text-xs text-center font-medium uppercase tracking-[3px] mb-5">The Supercut Salon</h6>
+            <h2 className="text-white text-5xl text-center font-bold mt-2 capitalize mb-6">Revitalize your senses and Refresh your mind.</h2>
+            <p className="text-gray-100 text-center font-medium text-sm leading-5">There is a distinction between a beauty salon and a hair salon and although many small
+            businesses do offer both sets of treatments.</p>
+          <Button className="text-white hover:border-black border border-white w-[100px] my-7">Book Now</Button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section className='pt-10'>
+        <Footer />
+    </section>
     </main>
   )
 }

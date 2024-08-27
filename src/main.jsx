@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client'
 import App from './App';
 import { createBrowserRouter, RouterProvider, } from 'react-router-dom';
 import './index.css';
-import About from './pages/About';
-import Services from './pages/Services';
+import About from '@/pages/About';
+import Services from '@/pages/Services';
+import Contact from '@/pages/Contact'
 
 
 const router = createBrowserRouter([
@@ -20,10 +21,10 @@ const router = createBrowserRouter([
     path: "Services",
     element: <Services />
   },
-  // {
-  //   path: "Contact",
-  //   element: <Contact />
-  // },
+  {
+    path: "Contact",
+    element: <Contact />
+  },
   // {
   //   path: "Product/:id",
   //   element: <Product />

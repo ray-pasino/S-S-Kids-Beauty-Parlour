@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom";
 // import { FaFacebookF } from "react-icons/fa6";
 // import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import { Facebook, Instagram, Twitter, Linkedin, ScissorsIcon} from 'lucide-react'
+import { Facebook, Instagram, Twitter, Linkedin, ScissorsIcon, MapPin, Phone, Mail} from 'lucide-react'
 const Footer = () => {
 const currentYear = new Date().getFullYear();
     return (   
@@ -67,21 +67,24 @@ const currentYear = new Date().getFullYear();
               </div>
             </div>
   
-            {/* ABOUT US */}
+            {/* CONTACT US */}
             <div>
-              <h4 className="font-semibold text-black font-cormorant mb-3">ABOUT US</h4>
-              <div className="space-y-2">
-                <Link to="/" className="text-sm font-montserrat text-gray-400 block hover:text-black">
-                  Our Employees
-                </Link>
-                <Link to="/" className="text-sm font-montserrat text-gray-400 block hover:text-black">
-                  Sitemap
-                </Link>
-                <Link to="/" className="text-sm font-montserrat text-gray-400 block hover:text-black">
-                  Terms & Conditions
-                </Link>
-              </div>
-            </div>
+    <h4 className="font-semibold text-black font-cormorant mb-3">CONTACT US</h4>
+    <div className="space-y-4">
+        <div className="flex items-center space-x-3">
+            <MapPin className="w-5 h-5 text-gray-400" />
+            <span className="text-sm font-montserrat text-gray-400 hover:text-black">123 Main St, Cityville</span>
+        </div>
+        <div className="flex items-center space-x-3">
+            <Phone className="w-5 h-5 text-gray-400" />
+            <span className="text-sm font-montserrat text-gray-400 hover:text-black">+1 (555) 123-4567</span>
+        </div>
+        <div className="flex items-center space-x-3">
+            <Mail className="w-5 h-5 text-gray-400" />
+            <span className="text-sm font-montserrat text-gray-400 hover:text-black">info@company.com</span>
+        </div>
+    </div>
+</div>
           </div>
         </div>
   
