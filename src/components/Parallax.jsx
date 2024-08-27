@@ -7,7 +7,7 @@ const Parallax = () => {
   return (
     <div className='relative min-h-screen xl:px-28 px-4 '
     style={{
-        backgroundImage: 'url(public/images/parallax3.jpg)',
+        backgroundImage: 'url(/images/parallax3.jpg)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',

@@ -16,7 +16,7 @@ const Testimonial = () => {
   return (
     <div className='relative h-[700px] xl:px-28 px-4'
     style={{
-      backgroundImage: 'url(public/images/parallax2.jpg)',
+      backgroundImage: 'url(/images/parallax2.jpg)',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
