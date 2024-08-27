@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from 'react-scroll'; // Import from react-scroll
-import { Button } from './ui/button';
 import { ScissorsIcon } from 'lucide-react';
 
 const Navbar = () => {
@@ -46,8 +45,15 @@ const Navbar = () => {
                         ))}
                     </ul>
                 </div>
+
                 <div>
-                  <Button className="hidden text-black hover:text-white border border-black w-[150px] mx-auto lg:block">Appointment</Button>
+                    <Link
+                        to="contact"
+                        smooth={true}
+                        duration={500}
+                        className="hidden lg:block text-black hover:text-white hover:bg-black border border-black w-[150px] mx-auto px-7 py-3 rounded-full"
+                    >Appointment
+                    </Link>
                 </div>
 
                 <div className="lg:hidden">

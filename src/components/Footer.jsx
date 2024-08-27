@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from "react-router-dom";
+import { Link as ScrollLink, Link } from "react-scroll";
 // import { FaFacebookF } from "react-icons/fa6";
 // import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import { Facebook, Instagram, Twitter, Linkedin, ScissorsIcon, MapPin, Phone, Mail} from 'lucide-react'
+import { Facebook, Instagram, Twitter, Linkedin, ScissorsIcon, MapPin, Phone, Mail, ArrowUp} from 'lucide-react'
 const Footer = () => {
 const currentYear = new Date().getFullYear();
     return (   
@@ -73,27 +73,27 @@ const currentYear = new Date().getFullYear();
     <div className="space-y-4">
         <div className="flex items-center space-x-3">
             <MapPin className="w-5 h-5 text-gray-400" />
-            <span className="text-sm font-montserrat text-gray-400 hover:text-black">123 Main St, Cityville</span>
+            <span className="text-sm font-montserrat text-gray-400 hover:text-black">Milton Keynes City Center, England</span>
         </div>
         <div className="flex items-center space-x-3">
             <Phone className="w-5 h-5 text-gray-400" />
-            <span className="text-sm font-montserrat text-gray-400 hover:text-black">+1 (555) 123-4567</span>
+            <span className="text-sm font-montserrat text-gray-400 hover:text-black">+447442853360</span>
         </div>
         <div className="flex items-center space-x-3">
             <Mail className="w-5 h-5 text-gray-400" />
-            <span className="text-sm font-montserrat text-gray-400 hover:text-black">info@company.com</span>
+            <span className="text-sm font-montserrat text-gray-400 hover:text-black">Soadakukhalil89@gmail.com</span>
         </div>
     </div>
 </div>
           </div>
         </div>
-  
-        {/* footer bottom */}
-        {/* <div>
-            <Link to="/" className="flex justify-center items-end">
-                    <img src="/images/payment.png" alt="payment methods" className='object-cover'/>
-            </Link>
-        </div> */}
+
+        <div className='fixed bottom-6 right-10 rounded-full bg-white hover:bg-black p-3 cursor-pointer shadow-lg z-40'>
+          <ScrollLink to='home' smooth={true} duration={500}>
+            <ArrowUp className='text-black hover:text-white w-10 h-10' />
+          </ScrollLink>
+        </div>
+        
         <div className='flex flex-col items-center justify-center'> 
             <p className="text-gray-400 text-center py-3">© {currentYear} S<span className="inline-block align-middle"><ScissorsIcon className="flex items-center  w-4 h-4" /></span>S   
             <br />KIDS BEAUTY PALOUR</p>

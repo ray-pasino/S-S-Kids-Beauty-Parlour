@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from './ui/button';
 import {Goal} from 'lucide-react';
+import { Link } from 'react-scroll'; // Import from react-scroll
 
 const Parallax = () => {
   return (
@@ -18,21 +19,33 @@ const Parallax = () => {
             <p className='text-lg text-[#333]'>SATURDAY 10AM - 8PM</p>
 
             <div className='mx-auto mt-11'>
-                <Button className="text-black hover:text-white border border-black w-[100px] mx-auto">Book Now</Button>
+            <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                className="text-black hover:text-white hover:border-black hover:bg-black border border-black w-[150px] mx-auto px-7 py-3 rounded-full"
+                    >Book Now
+            </Link>
             </div>
         </div>
 
         <div className='md:w-[400px] md:h-[auto] mx-auto text-center my-16 p-8 border-none rounded-xl bg-transparent shadow-xl'>
             <h2 className='font-bold text-4xl mb-4 text-[#ebebeb]'>Why Choose Us?</h2>
             <h5 className='text-lg mb-3 font-bold text-[#fff]'>In addition, there 5 more reasons why people prefer S&S Kids Beauty Palour:</h5>
-            <p className='text-lg mb-3 text-[#fff] flex items-center justify-center gap-x-3'><span><Goal /></span> Always welcoming environment</p>
-            <p className='text-lg mb-3 text-[#fff] flex items-center justify-center gap-x-3'><span><Goal /></span> Our masters focus on quality</p>
-            <p className='text-lg mb-3 text-[#fff] flex items-center justify-center gap-x-3'><span><Goal /></span> We value both the time and money of our clients</p>
-            <p className='text-lg mb-3 text-[#fff] flex items-center justify-center gap-x-3'><span><Goal /></span> All surfaces and tools are cleaned, disinfected before and after using</p>
-            <p className='text-lg mb-3 text-[#fff] flex items-center justify-center gap-x-3'><span><Goal /></span>We work only with high-quality, hypoallergenic premium products</p>
+            <p className='text-md mb-3 text-[#fff] flex items-center justify-center gap-x-3'><span><Goal /></span> Always welcoming environment</p>
+            <p className='text-md mb-3 text-[#fff] flex items-center justify-center gap-x-3'><span><Goal /></span> Our masters focus on quality</p>
+            <p className='text-md mb-3 text-[#fff] flex items-center justify-center gap-x-3'><span><Goal /></span> We value both the time and money of our clients</p>
+            <p className='text-md mb-3 text-[#fff] flex items-center justify-center gap-x-3'><span><Goal /></span> All surfaces and tools are cleaned, disinfected before and after using</p>
+            <p className='text-md mb-3 text-[#fff] flex items-center justify-center gap-x-3'><span><Goal /></span>We work only with high-quality, hypoallergenic premium products</p>
 
             <div className='mx-auto mt-10'>
-                <Button className="text-white hover:border-black border border-white w-[100px] mx-auto">Book Now</Button>
+            <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                className="text-white hover:text-white hover:border-black hover:bg-black border border-white w-[150px] mx-auto px-7 py-3 rounded-full"
+                    >Book Now
+            </Link>
             </div>
         </div>
         </div>

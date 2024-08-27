@@ -1,7 +1,8 @@
 import React from 'react';
 import './index.css';
 import Navbar from '@/components/Navbar';
-import { Button } from '@/components/ui/button';
+// import { Button } from '@/components/ui/button';
+import { Link } from 'react-scroll'; // Import from react-scroll
 import ServiceCard from '@/components/Cards';
 import Slider from '@/components/Slider';
 import ImageStack from '@/components/ImageStack';
@@ -10,7 +11,7 @@ import Parallax from '@/components/Parallax';
 import PricingList from '@/components/PricingList';
 import Testimonial from '@/components/Testimonial';
 import Footer from '@/components/Footer';
-import Contact from '@/pages/Contact';
+import Contact from '@/components/Contact';
 
 
 function App() {
@@ -32,10 +33,16 @@ function App() {
             <h2 className="text-5xl font-bold">
             S<span className="inline-block align-middle"><ScissorsIcon className="flex items-center  w-8 h-8" /></span>S   
             <br />KIDS BEAUTY PALOUR</h2>
-            <p className="text-xs">
+            <p className="text-sm">
               There is a distinction between a beauty salon and a hair salon, and although many small businesses do offer both sets of treatments, beauty salons provide extended services related to skin health.
             </p>
-            <Button className="text-black hover:text-white border border-black w-[200px] mx-auto">Book An Appointment</Button>
+            <Link
+                to="contact"
+                smooth={true}
+                duration={500}
+                className="text-black hover:text-white border hover:bg-black border-black w-[250px]  px-10 py-3 rounded-full flex mx-10 lg:-mx-1"
+                    >Book An Appointment
+            </Link>
           </div>
 
           {/* Image Container */}
@@ -70,7 +77,7 @@ function App() {
         <Testimonial />
       </section>
 
-      <section id='contact'>
+      <section id='contact' className='min-h-screen bg-[#eeeeee66] mx-auto'>
         <Contact />
       </section>
 

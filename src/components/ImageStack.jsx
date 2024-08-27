@@ -1,7 +1,7 @@
 import React from 'react';
 import BarberBg from '/images/barberBg4.jpg';
 import BarberImg from '/images/barberBg3.jpg';
-import BgImg from '/images/barberBg2.jpg';
+import BgImg from '/images/img3.jpg';
 
 
 const imageStack = () => {

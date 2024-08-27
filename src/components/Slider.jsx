@@ -4,7 +4,8 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
+
 import imageSlide from '../data/data';
 import '../index.css';
 
@@ -40,7 +41,10 @@ const Slider = () => {
                 <h6 className="text-white text-sm uppercase mb-2">{slide.title}</h6>
                 <h1 className="text-white lg:w-1/2 text-5xl font-bold mb-4">{slide.subtitle}</h1>
                 <p className="text-gray-200 text-sm lg:w-1/3 mb-4">{slide.description}</p>
-                <Link to={slide.link} className='bg-transparent border border-[#fff] text-white px-7 py-3 mt-4 uppercase rounded-full text-sm hover:text-white hover:bg-black hover:border-black'>
+                <Link to={slide.link}
+                smooth={true}
+                duration={500}
+                 className='bg-transparent border border-[#fff] text-white px-7 py-3 mt-4 uppercase rounded-full text-sm hover:text-white hover:bg-black hover:border-black'>
                   {slide.linkText}
                 </Link>
               </div>
