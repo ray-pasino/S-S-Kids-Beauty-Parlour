@@ -14,7 +14,15 @@ import person2 from '/images/person2.jpg';
 
 const Testimonial = () => {
   return (
-    <div className='relative h-[700px] bg-[url("public/images/parallax2.jpg")] bg-cover xl:px-28 px-4 bg-fixed bg-no-repeat object-cover'>
+    <div className='relative h-[700px] xl:px-28 px-4'
+    style={{
+      backgroundImage: 'url(public/images/parallax2.jpg)',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+      backgroundAttachment: 'fixed',
+      objectFit: 'cover' 
+    }}>
         <div className='absolute inset-0 bg-black opacity-50'></div>
         <h6 className='uppercase text-center text-xs tracking-[3px] pt-24 font-semibold text-white'>Testimonials</h6>
            <div className='flex flex-col justify-center items-center'>
