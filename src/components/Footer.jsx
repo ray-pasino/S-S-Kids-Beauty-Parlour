@@ -94,7 +94,7 @@ const currentYear = new Date().getFullYear();
         <div className='flex flex-col items-center justify-center'> 
             <p className="text-gray-400 text-center py-3">© {currentYear} S<span className="inline-block align-middle"><ScissorsIcon className="flex items-center  w-4 h-4" /></span>S   
             <br />KIDS BEAUTY PALOUR</p>
-            <p className='text-gray-400 text-center'>Designed by Francis Ashun & Developed by Hoenyefia Gideon Korbla </p>
+            <p className='text-gray-400 text-center'>Designed by Francis Wilfred Enimil Ashun & Developed by Hoenyefia Gideon Korbla </p>
         </div>
       </footer>
   )

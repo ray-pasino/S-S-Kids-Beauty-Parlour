@@ -1,15 +1,15 @@
 import React from 'react';
 import './index.css';
-import Navbar from './components/Navbar';
-import { Button } from './components/ui/button';
-import ServiceCard from './components/Cards';
-import Slider from './components/Slider';
-import ImageStack from './components/ImageStack';
+import Navbar from '@/components/Navbar';
+import { Button } from '@/components/ui/button';
+import ServiceCard from '@/components/Cards';
+import Slider from '@/components/Slider';
+import ImageStack from '@/components/ImageStack';
 import { ScissorsIcon } from 'lucide-react';
-import Parallax from './components/Parallax';
-import PricingList from './components/PricingList';
-import Testimonial from './components/Testimonial';
-import Footer from './components/Footer';
+import Parallax from '@/components/Parallax';
+import PricingList from '@/components/PricingList';
+import Testimonial from '@/components/Testimonial';
+import Footer from '@/components/Footer';
 
 
 function App() {

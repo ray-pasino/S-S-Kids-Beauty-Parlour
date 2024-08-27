@@ -7,8 +7,8 @@ const Parallax = () => {
     <div className='relative min-h-screen bg-[url("public/images/parallax3.jpg")] bg-cover xl:px-28 px-4 bg-fixed  bg-no-repeat object-cover'>
         <div className='absolute inset-0 bg-black opacity-60'></div>
         <div className='relative z-10 w-full flex flex-col md:flex-row items-center justify-between object-cover'>
-        <div className='md:w-[400px] md:h-[auto] mx-auto text-center my-16 p-8 border-none rounded-xl bg-[#f8f8f8] shadow-xl'>
-            <h2 className='font-semibold text-3xl mb-4 text-[#004085]'>Working Hours</h2>
+        <div className='md:w-[400px] md:h-[auto] mx-auto text-center my-16 p-8 border-none rounded-2xl bg-[#f8f8f8] shadow-xl'>
+            <h2 className='font-semibold text-4xl mb-4 text-[#004085]'>Working Hours</h2>
             <p className='text-lg mb-3 text-[#333]'>SUNDAY 10AM - 8PM</p>
             <p className='text-lg mb-3 text-[#333]'>MONDAY 10AM - 8PM</p>
             <p className='text-lg mb-3 text-[#333]'>TUESDAY 10AM - 8PM</p>
