@@ -3,7 +3,7 @@ import Navbar from '@/components/Navbar';
 import ImageStack from '@/components/ImageStack';
 import { Button } from '@/components/ui/button';
 import { ScissorsIcon } from 'lucide-react';
-import AboutImage from '/images/Aboutpic.jpg';
+// import AboutImage from '/images/Aboutpic.jpg';
 import Footer from '@/components/Footer';
 
 const About = () => {
@@ -48,19 +48,7 @@ const About = () => {
             <ImageStack />
         </div>
       </section>
-      {/* <section className='min-h-screen'>
-        <div className="container mx-auto px-8 xl:px-28 grid grid-cols-1 md:grid-cols-2 gap-x-12 items-center">
-            <div className=''>
-                <h6 className="text-xs font-semibold uppercase tracking-[2px] text-black mb-5">Our Commitment</h6>
-                <h2 className="text-4xl md:text-5xl font-semibold text-black">A Safe and Fun Environment</h2>
-                <h5 className="text-xl font-semibold capitalize text-black mb-5 mt-5">Creating Memories, One Haircut at a Time</h5>
-            </div>
-        <div className="flex flex-col space-y-6">
-            <p className="text-black/50 font-medium text-sm text-left">At S&S Kids Beauty Palour, we prioritize creating a safe and welcoming environment where children can feel comfortable and relaxed. Our salon is designed with kids in mind, featuring playful decor and engaging activities. We understand that visiting a salon can be a new experience for some children, so our team is always patient, gentle, and understanding.</p>
-            <p className="text-black/50 font-medium font-montserrat text-sm text-left">We're committed to providing a fun and memorable experience for every child who visits our salon. From the moment they walk in to the moment they leave, we strive to make them feel special and appreciated.</p>
-        </div>
-    </div>
-    </section> */}
+    
     <section className='bg-[#eeeeee66] py-24'>
         <div className="container mx-auto px-8 xl:px-28">
             <h6 className="text-xs font-semibold uppercase tracking-[2px] text-black mb-5">Our Commitment</h6>
