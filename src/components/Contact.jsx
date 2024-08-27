@@ -22,7 +22,7 @@ const info = [
 const Contact = () => {
   return (
     <div>
-        <h6 className='uppercase text-center text-xs tracking-[3px] pt-24 font-semibold'>Contact Us</h6>
+        <h6 className='uppercase text-center text-xs tracking-[3px] pt-16 font-semibold'>Contact Us</h6>
            <div className='flex flex-col justify-center items-center'>
               <h2 className='text-center text-5xl font-bold my-3'>Book Your Appointments Here</h2>
               <p className='text-center w-1/2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ab cumque non, similique sequi modi assumenda vel in amet quae.</p>

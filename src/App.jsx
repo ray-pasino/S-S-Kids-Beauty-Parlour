@@ -20,12 +20,12 @@ function App() {
     <main className='max-w-screen-7xl mx-auto overflow-x-hidden'>
       <Navbar />
 
-      <section id='home' className='min-h-screen'>
+      <section id='home' className='min-h-screen w-full'>
         <Slider />
       </section>
 
       {/* About Section */}
-      <section id='about' className="min-h-screen my-14">
+      <section id='about' className="h-full my-14 w-full">
         <div className="px-6 xl:px-24 flex flex-col justify-around lg:flex-row-reverse items-center">
           {/* Text Content */}
           <div className="space-y-5 text-center lg:text-left lg:w-1/2">
@@ -40,7 +40,7 @@ function App() {
                 to="contact"
                 smooth={true}
                 duration={500}
-                className="text-black hover:text-white border hover:bg-black border-black w-[250px]  px-10 py-3 rounded-full flex mx-10 lg:-mx-1"
+                className="text-black hover:text-white border hover:bg-black border-black w-[250px]  px-10 py-3 rounded-full flex mx-10 md:mx-auto xl:-mx-1"
                     >Book An Appointment
             </Link>
           </div>
@@ -51,37 +51,37 @@ function App() {
       </section>
 
       {/* Services */}
-      <section id='services' className='min-h-screen -mt-20 bg-[#eeeeee66]'> 
+      <section id='services' className='h-full -mt-20 bg-[#eeeeee66] w-full'> 
            <h6 className='uppercase text-center text-xs tracking-[3px] pt-24 font-semibold'>Services</h6>
            <div className='flex flex-col justify-center items-center'>
               <h2 className='text-center text-5xl font-bold my-3'>Our Services</h2>
-              <p className='text-center w-1/2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ab cumque non, similique sequi modi assumenda vel in amet quae.</p>
+              <p className='text-center md:w-1/2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ab cumque non, similique sequi modi assumenda vel in amet quae.</p>
            </div>
            <ServiceCard />
       </section>
 
-      <section className='min-h-screen'>
+      <section className='h-full w-full'>
         <Parallax />
       </section>
 
-      <section id='pricing' className='min-h-screen bg-[#eeeeee66]'>
+      <section id='pricing' className='h-full bg-[#eeeeee66] w-full'>
       <h6 className='uppercase text-center text-xs tracking-[3px] pt-24 font-semibold'>Pricing</h6>
            <div className='flex flex-col justify-center items-center'>
               <h2 className='text-center text-5xl font-bold my-3'>Pricing Plans</h2>
-              <p className='text-center w-1/2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ab cumque non, similique sequi modi assumenda vel in amet quae.</p>
+              <p className='text-center md:w-1/2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ab cumque non, similique sequi modi assumenda vel in amet quae.</p>
            </div>
            <PricingList />
       </section>
 
-      <section id='testimonials'>
+      <section id='testimonials h-full w-full'>
         <Testimonial />
       </section>
 
-      <section id='contact' className='min-h-screen bg-[#eeeeee66] mx-auto'>
+      <section id='contact' className='h-full bg-[#eeeeee66] w-full'>
         <Contact />
       </section>
 
-      <section className='pt-10'>
+      <section className='pt-10 w-full'>
          <Footer />
       </section>
     </main>

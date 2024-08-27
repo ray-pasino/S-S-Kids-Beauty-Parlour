@@ -6,7 +6,7 @@ import ParallaxImg from '/Parallax3.jpg';
 
 const Parallax = () => {
   return (
-    <div className='relative min-h-screen xl:px-28 px-4 '
+    <div className='relative h-full xl:px-28 px-4 '
     style={{
         backgroundImage: `url(${ParallaxImg})`,
         backgroundSize: 'cover',
@@ -14,7 +14,7 @@ const Parallax = () => {
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed',
         objectFit: 'cover' 
-      }}>
+      }} >
         <div className='absolute inset-0 bg-black opacity-60'></div>
         <div className='relative z-10 w-full flex flex-col md:flex-row items-center justify-between object-cover'>
         <div className='md:w-[400px] md:h-[auto] mx-auto text-center my-16 p-8 border-none rounded-2xl bg-[#f8f8f8] shadow-xl'>
