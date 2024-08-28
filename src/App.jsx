@@ -40,8 +40,7 @@ function App() {
                 to="contact"
                 smooth={true}
                 duration={500}
-                className="text-black hover:text-white border hover:bg-black border-black w-[250px]  px-10 py-3 rounded-full flex mx-10 md:mx-auto xl:-mx-1"
-                    >Book An Appointment
+                className="text-black hover:text-white border hover:bg-black border-black w-[250px]  px-10 py-3 rounded-full flex mx-10 md:mx-auto xl:-mx-1 relative z-20">Book An Appointment
             </Link>
           </div>
 
