@@ -33,16 +33,19 @@ const currentYear = new Date().getFullYear();
             <div>
               <h4 className="font-semibold font-cormorant text-black mb-3">QUICK LINKS</h4>
               <div className="space-y-2">
-                <Link to="/" className="text-sm font-montserrat text-gray-400 block hover:text-black">
+                <Link to="about" smooth={true} duration={500} className="text-sm font-montserrat text-gray-400 block hover:text-black">
                   About Us
                 </Link>
-                <Link to="/" className="text-sm font-montserrat text-gray-400 block hover:text-black">
+                <Link to="services" smooth={true}
+                duration={500} className="text-sm font-montserrat text-gray-400 block hover:text-black">
                   Services
                 </Link>
-                <Link to="/" className="text-sm font-montserrat text-gray-400 block hover:text-black">
+                <Link to="pricing" smooth={true}
+                duration={500} className="text-sm font-montserrat text-gray-400 block hover:text-black">
                   Pricing
                 </Link>
-                <Link to="/" className="text-sm font-montserrat text-gray-400 block hover:text-black">
+                <Link to="contact" smooth={true}
+                duration={500} className="text-sm font-montserrat text-gray-400 block hover:text-black">
                   Contact Us
                 </Link>
                 {/* <Link to="/" className="text-sm block hover:text-black">
@@ -58,7 +61,8 @@ const currentYear = new Date().getFullYear();
                 <Link to="/" className="text-sm text-gray-400 block hover:text-black">
                   FAQs
                 </Link>
-                <Link to="/" className="text-sm text-gray-400 block hover:text-black">
+                <Link to="testimonials" smooth={true}
+                duration={500} className="text-sm text-gray-400 block hover:text-black">
                   Testimonials
                 </Link>
                 <Link to="/" className="text-sm  text-gray-400 block hover:text-black">
