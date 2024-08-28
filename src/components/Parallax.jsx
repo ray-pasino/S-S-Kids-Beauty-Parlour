@@ -27,7 +27,7 @@ const Parallax = () => {
             <p className='text-lg mb-3 text-[#333]'>FRIDAY 10AM - 8PM</p>
             <p className='text-lg text-[#333]'>SATURDAY 10AM - 8PM</p>
 
-            <div className='mx-auto mt-11'>
+            {/* <div className='mx-auto mt-11'>
             <Link
                 to="contact"
                 smooth={true}
@@ -35,7 +35,7 @@ const Parallax = () => {
                 className="text-black hover:text-white hover:border-black hover:bg-black border border-black w-[150px] mx-auto px-7 py-3 rounded-full"
                     >Book Now
             </Link>
-            </div>
+            </div> */}
         </div>
 
         <div className='md:w-[400px] md:h-[auto] mx-auto text-center my-16 p-8 border-none rounded-xl bg-transparent'>
@@ -46,8 +46,10 @@ const Parallax = () => {
             <p className='text-md mb-3 text-[#fff] flex items-center justify-center gap-x-3'><span><Goal /></span> We value both the time and money of our clients</p>
             <p className='text-md mb-3 text-[#fff] flex items-center justify-center gap-x-3'><span><Goal /></span> All surfaces and tools are cleaned, disinfected before and after using</p>
             <p className='text-md mb-3 text-[#fff] flex items-center justify-center gap-x-3'><span><Goal /></span>We work only with high-quality, hypoallergenic premium products</p>
+            <p className='text-md mb-3 text-[#fff] flex items-center justify-center gap-x-3'>
+            <span><Goal /></span>Expert stylists who understand your unique hair needs</p>
 
-            <div className='mx-auto mt-10'>
+            {/* <div className='mx-auto mt-10'>
             <Link
                 to="contact"
                 smooth={true}
@@ -55,7 +57,7 @@ const Parallax = () => {
                 className="text-white hover:text-white hover:border-black hover:bg-black border border-white w-[150px] mx-auto px-7 py-3 rounded-full"
                     >Book Now
             </Link>
-            </div>
+            </div> */}
         </div>
         </div>
     </div>
