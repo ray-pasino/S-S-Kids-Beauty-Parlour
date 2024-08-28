@@ -1,5 +1,5 @@
 import React from 'react';
-import BarberBg from '/images/barberBg4.jpg';
+import BarberBg from '/images/img4.jpg';
 import BarberImg from '/images/barberBg3.jpg';
 import BgImg from '/images/img3.jpg';
 

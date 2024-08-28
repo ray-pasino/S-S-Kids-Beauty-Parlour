@@ -2,7 +2,7 @@ import React from 'react';
 // import { Button } from './ui/button';
 import {Goal} from 'lucide-react';
 import { Link } from 'react-scroll'; // Import from react-scroll
-import ParallaxImg from '/Parallax3.jpg';
+import ParallaxImg from '/img45.jpg';
 
 const Parallax = () => {
   return (
