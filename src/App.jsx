@@ -12,7 +12,6 @@ import PricingList from '@/components/PricingList';
 import Testimonial from '@/components/Testimonial';
 import Footer from '@/components/Footer';
 import Contact from '@/components/Contact';
-import AnimatedSection from './components/AnimatedSection';
 
 
 function App() {
@@ -26,7 +25,6 @@ function App() {
       </section>
 
       {/* About Section */}
-      <AnimatedSection>
       <section id='about' className="h-full my-14 w-full">
         <div className="px-6 xl:px-24 flex flex-col justify-around lg:flex-row-reverse items-center">
           {/* Text Content */}
@@ -51,10 +49,8 @@ function App() {
             <ImageStack />
         </div>
       </section>
-      </AnimatedSection>
 
       {/* Services */}
-      <AnimatedSection>
       <section id='services' className='h-full -mt-20 bg-[#eeeeee66] w-full'> 
            <h6 className='uppercase text-center text-xs tracking-[3px] pt-24 font-semibold'>Services</h6>
            <div className='flex flex-col justify-center items-center'>
@@ -63,16 +59,12 @@ function App() {
            </div>
            <ServiceCard />
       </section>
-      </AnimatedSection>
 
-      <AnimatedSection>
       <section className='h-full w-full'>
         <Parallax />
       </section>
-      </AnimatedSection>
 
       {/* Pricing */}
-      <AnimatedSection>
       <section id='pricing' className='h-full bg-[#eeeeee66] w-full'>
       <h6 className='uppercase text-center text-xs tracking-[3px] pt-24 font-semibold'>Pricing</h6>
            <div className='flex flex-col justify-center items-center'>
@@ -81,28 +73,21 @@ function App() {
            </div>
            <PricingList />
       </section>
-      </AnimatedSection>
 
       {/* Testimonials */}
-      <AnimatedSection>
       <section id='testimonials' className='h-full w-full'>
         <Testimonial />
       </section>
-      </AnimatedSection>
 
       {/* Contact */}
-      <AnimatedSection>
       <section id='contact' className='h-full bg-[#eeeeee66] w-full'>
         <Contact />
       </section>
-      </AnimatedSection>
 
       {/* Footer */}
-      <AnimatedSection>
       <section className='pt-10 w-full'>
          <Footer />
       </section>
-      </AnimatedSection>
     </main>
   )
 }
