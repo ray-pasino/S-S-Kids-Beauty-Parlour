@@ -21,12 +21,12 @@ const currentYear = new Date().getFullYear();
               <p className="my-6 text-black/65 font-montserrat">
               There is a distinction between a beauty salon and a hair salon, and although many small businesses do offer both sets of treatments, beauty salons provide extended services related to skin health.
               </p>
-              <div className="flex items-center gap-6">
+              {/* <div className="flex items-center gap-6">
                 <Facebook className="w-5 h-5 cursor-pointer" />
                 <Twitter className="w-5 h-5 cursor-pointer" />
                 <Linkedin className="w-5 h-5 cursor-pointer" />
                 <Instagram className="w-5 h-5 cursor-pointer" />
-              </div>
+              </div> */}
             </div>
   
             {/* Catalog */}
