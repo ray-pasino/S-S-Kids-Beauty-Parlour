@@ -1,6 +1,6 @@
 const imageSlide = [
     {
-        url: '/images/img3.jpg',
+        url: '/images/img10.jpg',
         title: 'Beauty Parlour',
         subtitle: 'Our Styles Enhance Your Smile',
         description: `Get ready to put a smile on your child's face with our styles that boost confidence one cut at a time. Welcome to S&S!`,
