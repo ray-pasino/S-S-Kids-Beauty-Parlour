@@ -11,7 +11,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import person1 from '/images/person1.jpg';
 import person3 from '/images/person3.jpg';
 import person2 from '/images/person2.jpg';
-import ParallaxImg from '/Parallax2.jpg';
+import ParallaxImg from '/images/img5.jpg';
 
 const Testimonial = () => {
   return (
@@ -25,10 +25,10 @@ const Testimonial = () => {
       objectFit: 'cover' 
     }}>
         <div className='absolute inset-0 bg-black opacity-50'></div>
-        <h6 className='uppercase text-center text-xs tracking-[3px] pt-24 font-semibold text-white'>Testimonials</h6>
+        <h6 className='relative uppercase text-center text-xs tracking-[3px] pt-24 font-semibold text-white'>Testimonials</h6>
            <div className='flex flex-col justify-center items-center'>
               <h2 className='text-center text-5xl font-bold my-3 text-white z-10'>Hear from our customers</h2>
-              <p className='text-center text-md md:w-1/2 text-slate-100 z-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ab cumque non, similique sequi modi assumenda vel in amet quae.</p>
+              <p className='text-center text-md md:w-1/2 text-slate-100 z-10'>Here’s what our clients are saying:</p>
            </div>
         <Swiper
           spaceBetween={30}
