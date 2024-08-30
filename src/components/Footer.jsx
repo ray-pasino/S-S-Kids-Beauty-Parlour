@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link as ScrollLink, Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+import {Link} from 'react-router-dom';
 // import { FaFacebookF } from "react-icons/fa6";
 // import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { Facebook, Instagram, Twitter, Linkedin, ScissorsIcon, MapPin, Phone, Mail, ArrowUp} from 'lucide-react'
@@ -33,21 +34,21 @@ const currentYear = new Date().getFullYear();
             <div>
               <h4 className="font-semibold font-cormorant text-black mb-3">QUICK LINKS</h4>
               <div className="space-y-2">
-                <Link to="about" smooth={true} duration={500} className="text-sm font-montserrat text-gray-400 block hover:text-black">
+                <ScrollLink to="about" smooth={true} duration={500} className="text-sm font-montserrat text-gray-400 block hover:text-black">
                   About Us
-                </Link>
-                <Link to="services" smooth={true}
+                </ScrollLink>
+                <ScrollLink to="services" smooth={true}
                 duration={500} className="text-sm font-montserrat text-gray-400 block hover:text-black">
                   Services
-                </Link>
-                <Link to="pricing" smooth={true}
+                </ScrollLink>
+                <ScrollLink to="pricing" smooth={true}
                 duration={500} className="text-sm font-montserrat text-gray-400 block hover:text-black">
                   Pricing
-                </Link>
-                <Link to="contact" smooth={true}
+                </ScrollLink>
+                <ScrollLink to="contact" smooth={true}
                 duration={500} className="text-sm font-montserrat text-gray-400 block hover:text-black">
                   Contact Us
-                </Link>
+                </ScrollLink>
                 {/* <Link to="/" className="text-sm block hover:text-black">
                   
                 </Link> */}
@@ -61,10 +62,10 @@ const currentYear = new Date().getFullYear();
                 <Link to="/" className="text-sm text-gray-400 block hover:text-black">
                   FAQs
                 </Link>
-                <Link to="testimonials" smooth={true}
+                <ScrollLink to="testimonials" smooth={true}
                 duration={500} className="text-sm text-gray-400 block hover:text-black">
                   Testimonials
-                </Link>
+                </ScrollLink>
                 <Link to="/" className="text-sm  text-gray-400 block hover:text-black">
                   Catalog
                 </Link>
@@ -101,7 +102,7 @@ const currentYear = new Date().getFullYear();
         <div className='flex flex-col items-center justify-center'> 
             <p className="text-gray-400 text-center py-3">© {currentYear} S<span className="inline-block align-middle"><ScissorsIcon className="flex items-center  w-4 h-4" /></span>S   
             <br />KIDS BEAUTY PALOUR</p>
-            <p className='text-gray-400 text-center'>Designed by Francis Wilfred Enimil Ashun & Developed by Hoenyefia Gideon Korbla </p>
+            <p className='text-gray-400 text-center'>Designed by Francis Wilfred Enimil Ashun & Developed by <Link to='https://kobby.vercel.app' target="_blank" rel="noopener noreferrer">Hoenyefia Gideon Korbla</Link></p>
         </div>
       </footer>
   )
