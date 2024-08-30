@@ -11,7 +11,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import person1 from '/images/person1.jpg';
 import person3 from '/images/person3.jpg';
 import person2 from '/images/person2.jpg';
-import ParallaxImg from '/images/img5.jpg';
+import ParallaxImg from '/img5.jpg';
 
 const Testimonial = () => {
   return (
