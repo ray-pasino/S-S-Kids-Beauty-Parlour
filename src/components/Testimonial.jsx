@@ -15,7 +15,7 @@ import ParallaxImg from '/img5.jpg';
 
 const Testimonial = () => {
   return (
-    <div className='relative h-full xl:px-28 px-4 pb-5'
+    <div className='relative h-full w-full xl:px-28 px-4 pb-5'
     style={{
       backgroundImage: `url(${ParallaxImg})`,
       backgroundSize: 'cover',
@@ -24,6 +24,7 @@ const Testimonial = () => {
       backgroundAttachment: 'fixed',
       objectFit: 'cover' 
     }}>
+
         <div className='absolute inset-0 bg-black opacity-50'></div>
         <h6 className='relative uppercase text-center text-xs tracking-[3px] pt-24 font-semibold text-white'>Testimonials</h6>
            <div className='flex flex-col justify-center items-center'>
