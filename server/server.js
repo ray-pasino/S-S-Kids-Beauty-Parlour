@@ -11,7 +11,7 @@ const PORT = 4000
 //middleware
 app.use(express.json())
   app.use(cors({
-    origin: ['http://localhost:5173'],  // Allow requests from this origin
+    origin: ['https://s-s-kids-beauty-parlour.vercel.app'],  // Allow requests from this origin
     credentials: true, // Allow credentials (e.g., cookies) to be sent in requests
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow these HTTP methods
     headers: ['Content-Type', 'Authorization'] // Allow these headers
